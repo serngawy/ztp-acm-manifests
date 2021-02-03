@@ -1,8 +1,8 @@
 apiVersion: app.k8s.io/v1beta1
 kind: Application
 metadata:
-  name: cu-cnfde2-subscription
-  namespace: cu-cnfde2-subscription
+  name: cnfde2-cu-subscription
+  namespace: cnfde2-cu-subscription
 spec:
   componentKinds:
     - group: apps.open-cluster-management.io
@@ -13,4 +13,4 @@ spec:
       - key: app
         operator: In
         values:
-          - cu-cnfde2-subscription
+          - cnfde2-cu-subscription
