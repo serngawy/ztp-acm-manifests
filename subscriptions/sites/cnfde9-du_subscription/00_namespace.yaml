@@ -2,4 +2,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: cnfde2-cu-subscription
+  name: cnfde9-du-subscription

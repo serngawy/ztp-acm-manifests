@@ -1,0 +1,16 @@
+apiVersion: app.k8s.io/v1beta1
+kind: Application
+metadata:
+  name: cnfde9-du-subscription
+  namespace: cnfde9-du-subscription
+spec:
+  componentKinds:
+    - group: apps.open-cluster-management.io
+      kind: Subscription
+  descriptor: {}
+  selector:
+    matchExpressions:
+      - key: app
+        operator: In
+        values:
+          - cnfde9-du-subscription

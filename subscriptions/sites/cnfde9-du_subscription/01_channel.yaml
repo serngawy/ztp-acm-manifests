@@ -2,8 +2,8 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: cnfde2-cu-subscription
-  namespace: cnfde2-cu-subscription
+  name: cnfde9-du-subscription
+  namespace: cnfde9-du-subscription
 spec:
   type: GitHub
   pathname: https://github.com/serngawy/ztp-ran-manifests

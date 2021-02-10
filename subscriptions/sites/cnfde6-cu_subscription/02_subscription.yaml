@@ -1,0 +1,14 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: cnfde6-cu-subscription
+  namespace: cnfde6-cu-subscription
+  labels:
+    app: cnfde6-cu-subscription
+  annotations:
+    apps.open-cluster-management.io/git-path: manifests/sites/cnfde6-cu
+    apps.open-cluster-management.io/git-branch: main
+spec:
+  channel: cnfde6-cu-subscription/cnfde6-cu-subscription 
+  placement:
+    local: true
