@@ -13,6 +13,10 @@ elif [ $PROFILE == "du" ]; then
   sed -i "s/sample-site-du/$CLUSTER_NAME/g" subscriptions/sites/${CLUSTER_NAME}_subscription/*
 else
   echo "Profile should be either cu or du. Profile=" $PROFILE
+<<<<<<< HEAD
+=======
+  exit 0
+>>>>>>> 72246a1444c63bcf4ff65cc32110a550010e1e64
 fi
 
 if [ ! -z $RAN_MANIFEST_REPO ]; then
@@ -20,4 +24,8 @@ if [ ! -z $RAN_MANIFEST_REPO ]; then
     #sed --debug -i "s,$ORG_RAN_MANIFEST_REPO,$RAN_MANIFEST_REPO,g" $f
     sed -i "s,$ORG_RAN_MANIFEST_REPO,$RAN_MANIFEST_REPO,g" $f
   done
+<<<<<<< HEAD
 fi
+=======
+fi
+>>>>>>> 72246a1444c63bcf4ff65cc32110a550010e1e64

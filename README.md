@@ -16,4 +16,8 @@ the needed subscriptions for configuring the clusters
 
 - In the (Zero Touch Deployment -> ACM spoke inventory/hosts -> clusters group) https://github.com/redhat-ztp/ztp-cluster-deploy/blob/master/acm-spoke/inventory/hosts.sample#L9 you will need to set the cluster acm_manifest_repo parameter to the ztp-acm-manifest repository you forked and update.
 
+<<<<<<< HEAD
 - Check the https://github.com/redhat-ztp/ztp-cluster-deploy/tree/master/acm-spoke for more info about how to execute the ACM spoke playbook.
+=======
+- Check the https://github.com/redhat-ztp/ztp-cluster-deploy/tree/master/acm-spoke for more info about how to execute the ACM spoke playbook.
+>>>>>>> 72246a1444c63bcf4ff65cc32110a550010e1e64
