@@ -1,9 +1,0 @@
----
-apiVersion: apps.open-cluster-management.io/v1
-kind: Channel
-metadata:
-  name: ran-subscription
-  namespace: ran-subscriptions
-spec:
-  type: GitHub
-  pathname: https://github.com/serngawy/ztp-ran-manifests
