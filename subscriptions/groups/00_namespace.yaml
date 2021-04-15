@@ -2,4 +2,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: profile-ran-subscriptions
+  name: group-ran-subscriptions
