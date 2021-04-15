@@ -6,7 +6,7 @@ metadata:
   labels:
     app: group-ran-subscription
   annotations:
-    apps.open-cluster-management.io/git-path: manifests/group
+    apps.open-cluster-management.io/git-path: manifests/groups
     apps.open-cluster-management.io/git-branch: main
 spec:
   channel: group-ran-subscriptions/group-ran-subscription 
