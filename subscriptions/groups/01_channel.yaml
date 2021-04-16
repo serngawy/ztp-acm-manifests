@@ -6,4 +6,4 @@ metadata:
   namespace: group-ran-subscriptions
 spec:
   type: GitHub
-  pathname: https://github.com/serngawy/ztp-ran-manifests
+  pathname: https://github.com/yrobla/ztp-ran-manifests
