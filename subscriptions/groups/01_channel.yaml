@@ -2,8 +2,8 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: group-ran-subscription
-  namespace: group-ran-subscriptions
+  name: groups-ran-subscription
+  namespace: groups-ran-subscriptions
 spec:
   type: GitHub
   pathname: https://github.com/yrobla/ztp-ran-manifests
