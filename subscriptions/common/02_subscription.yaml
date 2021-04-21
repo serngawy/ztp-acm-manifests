@@ -2,7 +2,7 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
 metadata:
   name: common-ran-subscription
-  namespace: common-ran-subs
+  namespace: common-ran-sub
   labels:
     app: common-ran-subscription
   annotations:
