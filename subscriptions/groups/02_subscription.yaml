@@ -2,13 +2,13 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
 metadata:
   name: groups-ran-subscription
-  namespace: groups-ran-subscriptions
+  namespace: groups-ran-sub
   labels:
     app: groups-ran-subscription
   annotations:
     apps.open-cluster-management.io/git-path: manifests/groups
     apps.open-cluster-management.io/git-branch: main
 spec:
-  channel: groups-ran-subscriptions/groups-ran-subscription
+  channel: groups-ran-sub/groups-ran-subscription
   placement:
     local: true

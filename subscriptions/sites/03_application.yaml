@@ -2,7 +2,7 @@ apiVersion: app.k8s.io/v1beta1
 kind: Application
 metadata:
   name: sites-ran-subscription
-  namespace: sites-ran-subscriptions
+  namespace: sites-ran-sub
 spec:
   componentKinds:
     - group: apps.open-cluster-management.io

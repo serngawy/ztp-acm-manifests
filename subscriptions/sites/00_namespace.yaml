@@ -2,4 +2,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: sites-ran-subscriptions
+  name: sites-ran-sub

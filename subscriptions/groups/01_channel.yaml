@@ -3,7 +3,7 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
   name: groups-ran-subscription
-  namespace: groups-ran-subscriptions
+  namespace: groups-ran-sub
 spec:
   type: GitHub
   pathname: https://github.com/serngawy/ztp-ran-manifests
